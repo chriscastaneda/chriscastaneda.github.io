@@ -1,8 +1,27 @@
 @import url(font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 
-/*Customs*/
+/*Custom*/
+.row2 {
+    max-width: 80%;
+    margin: 0 auto;
+}
 
+.intro-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: table;
+    z-index: -1;
+}
+
+.content2 {
+    height: 100vh;
+    padding: 50px;
+    margin-top: 100vh;
+}
 
 /*Copy email*/
 .mailto-wrapper {
@@ -24,15 +43,17 @@
     border-radius: 2px;
     &:after
 
-    {
-        content: '';
-    }
+{
+    content: '';
+}
 
 }
 
 .mailto-wrapper:hover .mailto-message {
     display: block;
 }
+
+
 
 /* Reset */
 
@@ -3117,7 +3138,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image:/* url("images/overlay.png"),*/ url("../../images/banner.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
